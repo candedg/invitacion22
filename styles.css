@@ -1,0 +1,99 @@
+body,
+.contenedor,
+section {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor {
+    margin: 0;
+    max-width: 500px;
+    width: 100%;
+    background-image: url(img/fondo.jpeg);
+    background-size: contain;
+    padding: 3em 0;
+}
+
+.h1 {
+    margin: 0 0 1.5em;
+}
+
+.h2 {
+    margin: 1.5em 0 0.5em;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    background-color: #413F6E;
+    color: #FDFDF0;
+    padding: 1em;
+    margin: 0.1em;
+    border-radius: 2em;
+
+}
+
+.info {
+    background-color: #413F6E;
+    padding: 1em 2em;
+    border-radius: 2em;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    color: #FDFDF0;
+    margin: 1em;
+}
+
+p {
+    margin: 0.5em 1.5em;
+    font-family: "shantell-sans-bouncy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    font-family: "shantell-sans-bouncy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+iframe {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+a {
+    animation: bounce 2s infinite;
+    /* Aplicar animación 'bounce' con duración de 1 segundo y repetición infinita */
+}
+
+/* Definir la animación 'bounce' */
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+        /* Comienza y termina en la posición original */
+    }
+
+    50% {
+        transform: translateY(-10px);
+        /* Sube 10px en el medio del ciclo */
+    }
+}
+
+@font-face {
+    font-family: 'collage';
+    src: url('fonts/rans____.ttf');
+}
+
+.imgm{
+    margin: 2em 0 0;
+}
