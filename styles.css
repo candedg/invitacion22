@@ -1,6 +1,40 @@
+@font-face {
+    font-family: 'BukaBird';
+    src: url('assets/fonts/Buka\ Bird.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.buka-titulos {
+    font-family: 'BukaBird', sans-serif;
+    font-size: 3rem;
+    color: #315478;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+.font-body {
+    font-family: "Schoolbell", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+    color: #edf5fd;
+    padding: 1rem;
+    margin: 0 1.5rem;
+}
+
+.portada {
+    margin: -0.3rem 0;
+    padding: 0;
+    -webkit-text-stroke: 0.05px #c7748e;
+}
+
+h1 {
+    font-size: 7rem !important;
+}
+
 body,
-.contenedor,
-section {
+.contenedor {
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -13,67 +47,40 @@ section {
     margin: 0;
     max-width: 500px;
     width: 100%;
-    background-image: url(img/fondo.jpeg);
-    background-size: contain;
-    padding: 3em 0;
+    background-color: #8cc0f5;
+    background-image: url(assets/img/fondo.png);background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+    width: 100%; /* o el tamaño que quieras */
+    padding: 0 0 3em 0;
 }
 
-.h1 {
-    margin: 0 0 1.5em;
-}
-
-.h2 {
-    margin: 1.5em 0 0.5em;
-}
-
-ul {
-    list-style: none;
+.img-portada {
     margin: 0;
-    padding: 0;
-    display: flex;
+    max-width: 500px;
+    width: 100%;
 }
 
-li {
-    background-color: #413F6E;
-    color: #FDFDF0;
-    padding: 1em;
-    margin: 0.1em;
-    border-radius: 2em;
-
+img {
+    margin: 2rem 0;
+    max-width: 500px;
 }
 
-.info {
-    background-color: #413F6E;
-    padding: 1em 2em;
-    border-radius: 2em;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-    color: #FDFDF0;
-    margin: 1em;
-}
-
-p {
-    margin: 0.5em 1.5em;
-    font-family: "shantell-sans-bouncy", sans-serif;
-    font-weight: 400;
+.boton{
+    font-family: "Schoolbell", cursive;
+    font-weight: 600;
     font-style: normal;
-}
-
-a {
-    font-family: "shantell-sans-bouncy", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-iframe {
+    font-size: 1.5rem;
+    background-color:  #c7748e;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-
+    color: #edf5fd;
+    animation: bounce 1s infinite;
 }
-
-a {
-    animation: bounce 2s infinite;
-    /* Aplicar animación 'bounce' con duración de 1 segundo y repetición infinita */
+a{
+    text-decoration: none;
 }
-
 /* Definir la animación 'bounce' */
 @keyframes bounce {
 
@@ -84,16 +91,7 @@ a {
     }
 
     50% {
-        transform: translateY(-10px);
+        transform: translateY(-5px);
         /* Sube 10px en el medio del ciclo */
     }
-}
-
-@font-face {
-    font-family: 'collage';
-    src: url('fonts/rans____.ttf');
-}
-
-.imgm{
-    margin: 2em 0 0;
 }
