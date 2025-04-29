@@ -30,7 +30,7 @@ html {
 .portada {
     margin: -0.3rem 0;
     padding: 0;
-    -webkit-text-stroke: 0.05px #c7748e;
+    -webkit-text-stroke: 0.5px #c7748e;
 }
 
 h1 {
