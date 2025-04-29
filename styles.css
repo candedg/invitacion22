@@ -1,3 +1,7 @@
+html {
+    background-color: #29435d;
+  }
+
 @font-face {
     font-family: 'BukaBird';
     src: url('assets/fonts/Buka\ Bird.ttf') format('truetype');
@@ -10,7 +14,7 @@
     font-size: 3rem;
     color: #315478;
     padding: 0.5rem;
-    margin: 0 1rem;
+    margin: 1rem 0;
 }
 
 .font-body {
@@ -30,7 +34,7 @@
 }
 
 h1 {
-    font-size: 7rem !important;
+    font-size: 9rem !important;
 }
 
 body,
@@ -41,6 +45,7 @@ body,
     align-items: center;
     justify-content: center;
     text-align: center;
+    box-shadow: 0 0 100px rgb(0, 0, 0, 1);
 }
 
 .contenedor {
@@ -74,7 +79,7 @@ img {
     background-color:  #c7748e;
     padding: 1rem 2rem;
     border-radius: 1rem;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     color: #edf5fd;
     animation: bounce 1s infinite;
 }
