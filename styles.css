@@ -1,6 +1,6 @@
 html {
     background-color: #29435d;
-  }
+}
 
 @font-face {
     font-family: 'BukaBird';
@@ -31,6 +31,15 @@ html {
     margin: -0.3rem 0;
     padding: 0;
     -webkit-text-stroke: 0.5px #c7748e;
+    text-shadow:
+        -2px -2px 0 #c7748e,
+        0px -2px 0 #c7748e,
+        2px -2px 0 #c7748e,
+        -2px 0px 0 #c7748e,
+        2px 0px 0 #c7748e,
+        -2px 2px 0 #c7748e,
+        0px 2px 0 #c7748e,
+        2px 2px 0 #c7748e;
 }
 
 h1 {
@@ -53,10 +62,15 @@ body,
     max-width: 500px;
     width: 100%;
     background-color: #8cc0f5;
-    background-image: url(assets/img/fondo.png);background-size: cover; /* Hace que la imagen cubra todo el contenedor */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que se repita */
-    width: 100%; /* o el tamaño que quieras */
+    background-image: url(assets/img/fondo.png);
+    background-size: cover;
+    /* Hace que la imagen cubra todo el contenedor */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita que se repita */
+    width: 100%;
+    /* o el tamaño que quieras */
     padding: 0 0 3em 0;
 }
 
@@ -71,21 +85,23 @@ img {
     max-width: 500px;
 }
 
-.boton{
+.boton {
     font-family: "Schoolbell", cursive;
     font-weight: 600;
     font-style: normal;
     font-size: 1.5rem;
-    background-color:  #c7748e;
+    background-color: #c7748e;
     padding: 1rem 2rem;
     border-radius: 1rem;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     color: #edf5fd;
     animation: bounce 1s infinite;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 /* Definir la animación 'bounce' */
 @keyframes bounce {
 
