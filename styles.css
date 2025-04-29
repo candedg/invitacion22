@@ -31,15 +31,6 @@ html {
     margin: -0.3rem 0;
     padding: 0;
     -webkit-text-stroke: 0.5px #c7748e;
-    text-shadow:
-        -2px -2px 0 #c7748e,
-        0px -2px 0 #c7748e,
-        2px -2px 0 #c7748e,
-        -2px 0px 0 #c7748e,
-        2px 0px 0 #c7748e,
-        -2px 2px 0 #c7748e,
-        0px 2px 0 #c7748e,
-        2px 2px 0 #c7748e;
 }
 
 h1 {
